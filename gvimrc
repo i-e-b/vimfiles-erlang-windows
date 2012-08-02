@@ -8,7 +8,7 @@ set visualbell
 set guioptions-=T
 
 " Default gui color scheme
-color ir_black
+color BClear
 
 " Project Tree
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
