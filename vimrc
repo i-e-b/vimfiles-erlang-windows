@@ -106,6 +106,8 @@ vmap <C-Down> ]egv
 let g:syntastic_enable_signs=1
 let g:syntastic_enable_balloons=1
 let g:syntastic_quiet_warnings=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_loc_list_height=5
 
 " Use modeline overrides
 set modeline
@@ -133,8 +135,6 @@ map <C-S-TAB> :tabprev<CR>
 
 set clipboard=unnamed
 set nobackup nowb noswapfile
-"torte
 colorscheme BClear
 set guioptions-=T
-
 
