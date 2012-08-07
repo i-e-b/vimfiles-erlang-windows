@@ -45,4 +45,4 @@ function s:DefineCommand(name, destination)
   call s:CommandCabbr(a:name, a:destination)
 endfunction
 
-set guifont=Lucida_Console:h10:cANSI
+set guifont=DejaVu_Sans_Mono:h10:cANSI
